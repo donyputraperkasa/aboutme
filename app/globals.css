@@ -1,4 +1,7 @@
 @import "tailwindcss";
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
 
 :root {
   --background: #ffffff;
@@ -19,8 +22,28 @@
   }
 }
 
+/* Background gradient premium */
 body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  @apply bg-gradient-to-br from-[#0a0f1f] via-[#0d1a2b] to-[#0f1f3a] text-gray-100;
+  background-attachment: fixed;
+  scroll-behavior: smooth;
+}
+
+/* Premium shadow */
+.shadow-premium {
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.3);
+}
+
+/* Glass effect */
+.glass {
+  backdrop-filter: blur(12px);
+  background: rgba(255, 255, 255, 0.05);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+/* Text gradient */
+.text-gradient {
+  background: linear-gradient(90deg, #6aa6ff, #b9d8ff);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
