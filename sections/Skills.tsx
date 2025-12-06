@@ -1,6 +1,6 @@
 "use client";
 
-import { Code, Sigma } from "lucide-react";
+import { FaCode, FaSuperscript } from "react-icons/fa";
 import SectionTitle from "../components/ui/SectionTitle";
 import MotionWrapper from "../components/ui/MotionWrapper";
 import { softwareSkills, mathSkills } from "../lib/data/Skills";
@@ -16,7 +16,7 @@ export default function Skills() {
                     {/* Software Engineering */}
                     <div className="glass shadow-premium rounded-xl p-6">
                     <div className="flex items-center gap-2 mb-4">
-                        <Code className="w-5 h-5 text-blue-400" />
+                        <FaCode className="w-5 h-5 text-blue-400" />
                         <h3 className="text-xl font-semibold text-white">Software Engineering</h3>
                     </div>
 
@@ -35,7 +35,7 @@ export default function Skills() {
                     {/* Mathematics */}
                     <div className="glass shadow-premium rounded-xl p-6">
                     <div className="flex items-center gap-2 mb-4">
-                        <Sigma className="w-5 h-5 text-blue-400" />
+                        <FaSuperscript className="w-5 h-5 text-blue-400" />
                         <h3 className="text-xl font-semibold text-white">Mathematics</h3>
                     </div>
 
