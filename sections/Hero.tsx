@@ -67,25 +67,25 @@ export default function Hero() {
 
                 {/* Social Icons */}
                 <div className="mt-4 flex justify-center gap-5">
-                    <a href="https://instagram.com/" target="_blank" className="text-gray-300 hover:text-white transition relative group">
+                    <a href="https://www.instagram.com/donyputraperkasa/" target="_blank" className="text-gray-300 hover:text-white transition relative group">
                         <FaInstagram className="w-5 h-5 group-hover:drop-shadow-[0_0_6px_rgba(255,255,255,0.7)] transition" />
                         <span className="absolute -bottom-7 left-1/2 -translate-x-1/2 text-xs text-white bg-black/60 px-2 py-1 rounded opacity-0 group-hover:opacity-100 transition">
                             Instagram
                         </span>
                     </a>
-                    <a href="https://wa.me/628xxxxxxxxx" target="_blank" className="text-gray-300 hover:text-white transition relative group">
+                    <a href="https://wa.me/6282236343404" target="_blank" className="text-gray-300 hover:text-white transition relative group">
                         <FaWhatsapp className="w-5 h-5 group-hover:drop-shadow-[0_0_6px_rgba(255,255,255,0.7)] transition" />
                         <span className="absolute -bottom-7 left-1/2 -translate-x-1/2 text-xs text-white bg-black/60 px-2 py-1 rounded opacity-0 group-hover:opacity-100 transition">
                             WhatsApp
                         </span>
                     </a>
-                    <a href="https://linkedin.com/" target="_blank" className="text-gray-300 hover:text-white transition relative group">
+                    <a href="https://www.linkedin.com/in/dony-putra-perkasa-49ba87233/" target="_blank" className="text-gray-300 hover:text-white transition relative group">
                         <FaLinkedin className="w-5 h-5 group-hover:drop-shadow-[0_0_6px_rgba(255,255,255,0.7)] transition" />
                         <span className="absolute -bottom-7 left-1/2 -translate-x-1/2 text-xs text-white bg-black/60 px-2 py-1 rounded opacity-0 group-hover:opacity-100 transition">
                             LinkedIn
                         </span>
                     </a>
-                    <a href="https://tiktok.com/" target="_blank" className="text-gray-300 hover:text-white transition relative group">
+                    <a href="https://www.tiktok.com/@donyputraperkasa" target="_blank" className="text-gray-300 hover:text-white transition relative group">
                         <FaTiktok className="w-5 h-5 group-hover:drop-shadow-[0_0_6px_rgba(255,255,255,0.7)] transition" />
                         <span className="absolute -bottom-7 left-1/2 -translate-x-1/2 text-xs text-white bg-black/60 px-2 py-1 rounded opacity-0 group-hover:opacity-100 transition">
                             Tiktok
