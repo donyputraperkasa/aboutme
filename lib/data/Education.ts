@@ -1,17 +1,17 @@
 export const educationData = [
     {
-        school: "Universitas Sanata Dharma",
-        level: "Matematika",
-        desc: "Lulus dengan skripsi yang berjudul pelabelan ajaib sisi graf Cycle dengan bahasa pemrograman MathLab",
+        school: "Sanata Dharma University",
+        level: "Mathematics",
+        desc: "Graduated with a thesis entitled 'Magic Edge Labeling of Cycle Graphs' using the MATLAB programming language.",
     },
     {
-        school: "Universitas Sanata Dharma",
-        level: "Profesi Guru",
-        desc: "Lulus dengan membawa semangat pendidik yang sesuai dengan kodrat alam dan kodrat zaman",
+        school: "Sanata Dharma University",
+        level: "Teacher Professional Program",
+        desc: "Graduated with a strong commitment to educational values aligned with contemporary learning principles.",
     },
     {
-        school: "Revou",
-        level: "Software Engineerign",
-        desc: "Fullstack developer dengan menggunakan Next.js, Nest.js, Prisma, dan PostgreSQL",
+        school: "RevoU",
+        level: "Software Engineering",
+        desc: "Trained as a full-stack developer using Next.js, NestJS, Prisma, and PostgreSQL.",
     },
 ];
