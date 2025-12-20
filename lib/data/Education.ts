@@ -10,7 +10,7 @@ export const educationData = [
         desc: "Graduated with a strong commitment to educational values aligned with contemporary learning principles.",
     },
     {
-        school: "RevoU",
+        school: "Revou Shanghai University",
         level: "Software Engineering",
         desc: "Trained as a full-stack developer using Next.js, NestJS, Prisma, and PostgreSQL.",
     },
